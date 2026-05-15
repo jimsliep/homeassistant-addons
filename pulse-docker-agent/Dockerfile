@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM=ghcr.io/home-assistant/amd64-base:latest
 FROM $BUILD_FROM
 
 # Install tools we need to fetch and unpack the agent binary, plus smartmontools for disk temps
